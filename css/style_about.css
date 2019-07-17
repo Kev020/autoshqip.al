@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: #000;
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  max-width: 80%;
+  text-align: justify;
+  text-align-last: center;
+  margin-left: 10%;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  color: #b30707;
+  text-transform: uppercase;
+  text-align: center;
+}
+main img{
+	width: 90%;
+}
+.left{
+    margin-left: 10vw;
+}
+.round{
+    float: left;
+  margin-right: 1vw;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+h4{
+  font-size: 1.2vw;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  margin: 0;
+  transform: translate(-30%, -30%);
+  top: 35%;
+  left: 37%;
+  position: absolute;
+}
+.r1{
+  background: red;
+  filter: grayscale(20%);
+}
+.r2{
+  background: blue;
+  filter: grayscale(20%);
+}
+.r3{
+  background: green;
+  filter: grayscale(20%);
+}
+.r4{
+  background: #d85600;
+  filter: grayscale(20%);
+}
+
+

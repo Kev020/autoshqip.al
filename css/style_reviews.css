@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+.container{
+  overflow:auto;
+}
+
+.review{
+  width: 67%;
+  float: left;
+  box-shadow: 0px 5px 20px ;
+  margin-left: 2%;
+}
+
+.review button{
+border:none;
+display:inline-block;
+height: 60px;
+width: 50px;
+vertical-align:middle;
+overflow:hidden;
+text-decoration:none;
+text-align:center;
+cursor:pointer;
+background-color: transparent;
+white-space:nowrap;
+opacity: .8;
+font-size: 40px;
+filter: invert(0%);
+margin-top:25%;
+outline: none;
+}
+
+.review button:hover{
+opacity: 1;
+filter: invert(100%);
+
+}
+.review .right{
+position:absolute;
+right:1%;
+}
+.review .left{
+position:absolute;
+left:0%;
+
+}
+.review .slides_container{
+width: 100%;
+position:relative
+
+}
+.review .slides_container img{
+width: 100%;
+}
+.review .col.s4{
+top: 0;
+left: 0;
+width: 18%;
+padding:0.5%;
+background: rgb(0,0,0,0.9);
+z-index: 100;
+position: relative;
+display:block;
+float: left;
+}
+.review .section{
+ width: 80%;
+ margin-left: 11%;
+ margin-top: -5%;
+ z-index: 100;
+ }
+
+.review .section2{
+ width:80%;
+ margin-left: 35%;
+ margin-top: -5%;
+ z-index: 100;
+}
+.img-opacity
+{
+opacity: 0.8;
+transition: 0.3s ease all;
+}
+.img-opacity:hover{
+opacity: 1;
+filter: brightness(1.5);
+}
+.img-opacity-2
+{
+filter: brightness(1.5);
+}
+.content{
+  margin-top: 12%;
+  width: 95%;
+  margin-left: 2%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #454545;
+}
+.content h1{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 40px;
+  color: #000;
+  border-bottom: 1px solid black;
+
+}
+
+
+@media only screen and (max-width : 820px) {
+
+
+
+}
